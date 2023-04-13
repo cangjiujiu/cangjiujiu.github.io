@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:IRIS://k8s-d9c5158d-a1b352ac-48695b0c57-6219ec0a3829cb7a.elb.us-east-1.amazonaws.com/User
+    username: SQLAdmin
+    password: Aaa19970427*
+    driver-class-name: com.intersystems.jdbc.IRISDriver
+
+server:
+  # 端口
+  port: 9999
+  servlet:
+    # 项目名称
+    context-path : /automl
+
