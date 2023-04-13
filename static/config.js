@@ -1,5 +1,5 @@
 const $mainConfig = {
-    httpUrl:"http://10.10.10.176:9999/automl/AutoML/",
+    httpUrl:"http://localhost:9999/automl/AutoML/",
     language:1,
     
 }; 
